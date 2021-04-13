@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: erc20_1:afc2745c7782507a73c2e9220df2e5d2d9b3cc572717e13283bd7d918b00b5b8, Label: erc20_1

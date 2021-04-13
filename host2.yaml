@@ -1,0 +1,30 @@
+
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+version: '2'
+
+volumes:
+  
+  peer0.org2.example.com:
+
+networks:
+  byfn:
+    external:
+      name: first-network
+
+services:
+
+
+  peer0.org2.example.com:
+    container_name: peer0.org2.example.com
+    extends:
+      file:  base/docker-compose-base.yaml
+      service: peer0.org2.example.com
+
+    networks:
+      - byfn
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "8host-swarm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kctam/4host-swarm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kctam/4host-swarm/issues"
+  },
+  "homepage": "https://github.com/kctam/4host-swarm#readme",
+  "dependencies": {
+    "@hyperledger/caliper-cli": "^0.4.0",
+    "fabric-ca-client": "^2.1.0",
+    "fabric-client": "^1.4.11",
+    "fabric-common": "^2.1.0",
+    "fabric-network": "^1.4.11",
+    "fabric-protos": "^2.0.0-snapshot.1",
+    "grpc": "^1.14.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
